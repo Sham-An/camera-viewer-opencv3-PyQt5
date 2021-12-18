@@ -1,5 +1,10 @@
 #
 # https://www.youtube.com/playlist?list=PL0lO_mIqDDFXeDkOLHmEsL_HAEhw4-xDX
+
+#Изучение PyQT (Python GUI) / Урок #3 – Разработка внутри Qt Designer
+#https://youtu.be/CnMfhhx0GBI?list=PL0lO_mIqDDFXeDkOLHmEsL_HAEhw4-xDX
+# изменить настройку языка без переустановки, добавив переменную среды LANG со значением en_US (щелкните правой кнопкой мыши "Компьютер", "Свойства", "Дополнительные системные настройки", "Переменные среды"
+
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QApplication, QMainWindow
 

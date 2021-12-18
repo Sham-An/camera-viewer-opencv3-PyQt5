@@ -48,7 +48,6 @@ class MainWindow(QWidget):
         qImg = QImage(image.data, width, height, step, QImage.Format_RGB888)
         # show image in img_label
         self.ui.image_label.setPixmap(QPixmap.fromImage(qImg))
-
     # start/stop timer
     def controlTimer(self):
         # if timer is stopped
